@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fillAfter="true">
+    <!-- Setting fillAfter to 'false' will return the element back to its original state after the animation is over -->
+    <!-- Setting fillAfter to 'true' will not return the element back to its original state after the animation is over -->
+    <!-- Note: the same concept doesn't work on android:fillBefore property -->
+    <alpha
+            android:duration="1000"
+            android:fromAlpha="0.0"
+            android:interpolator="@android:anim/accelerate_interpolator"
+            android:toAlpha="1.0" />
+</set>

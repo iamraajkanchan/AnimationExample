@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+        android:fillAfter="true"
+        android:interpolator="@android:anim/linear_interpolator">
+    <!-- Setting fillAfter to 'false' will return the element back to its original state after the animation is over -->
+    <!-- Setting fillAfter to 'true' will not return the element back to its original state after the animation is over -->
+    <!-- Note: the same concept doesn't work on android:fillBefore property -->
+    <translate
+            android:duration="800"
+            android:fromYDelta="0%p"
+            android:toYDelta="-75%p" />
+    <!-- Setting (-) values or (+) values to YDelta acts like -Y or +Y values in a basic Graph projectiles.  -->
+</set>
